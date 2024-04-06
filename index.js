@@ -13,7 +13,7 @@ function addTask() {
     li.appendChild(span);
   }
   inputBox.value = "";
-  saveData(); //new line
+  saveData();
 }
 
 listContainer.addEventListener(
